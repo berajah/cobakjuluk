@@ -1,0 +1,20 @@
+<html>
+  <head>
+  <base target="_top"></base>
+  </head>
+  <body>
+    <iframe height="2362" scrolling="no" src="https://docs.google.com/forms/d/e/1FAIpQLSfViGoB9xwMW5QlmQNdiNZSnlV7S3AbCKE5t3qsOQp89sDxuA/viewform?embedded=true" frameBorder="0" width="100%"></iframe>
+  </body>
+<script type="text/javascript">
+var load = 0;
+
+document.getElementById('gform').onload = function(){
+    /*Execute on every reload on iFrame*/
+    load++;
+    if(load > 1){
+        /*Second reload is a submit*/
+        document.location = "https://desabeleke.com/";
+    }
+}
+</script>
+</html>
